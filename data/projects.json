@@ -1,0 +1,446 @@
+[
+  {
+    "id": "dirt",
+    "name": "DIRT",
+    "fullName": "Diagnostic Inspection Robot for Terrain",
+    "description": "To ensure that A&M continues to prosper in agriculture research and technology, soil quality must be ensured. DIRT aims to design a robust rover that can traverse varying terrains to take more frequent and more accurate soil measurements. DIRT will perform tests using a deep spectroscopy probe to get the most thorough reading of soil quality.",
+    "questions": [
+      {
+        "id": "dirt-subsystem",
+        "question": "Which DIRT subsystem (spectroscopy probe, rocker-bogie chassis, soil collection, or autonomy) interests you most and why?",
+        "required": true,
+        "type": "textarea"
+      },
+      {
+        "id": "dirt-exp",
+        "question": "What experience do you have with terrain navigation, sensors, or agricultural tech?",
+        "required": false,
+        "type": "textarea"
+      },
+      {
+        "id": "dirt-custom-q3",
+        "question": "Are you available for weekend field tests at the RELLIS campus?",
+        "required": true,
+        "type": "text"
+      }
+    ]
+  },
+  {
+    "id": "ache",
+    "name": "ACHE",
+    "fullName": "Artificial Cardiovascular and Hemodynamics Experiment",
+    "description": "Designing a soft total artificial heart that mimics the function of the human heart through compliant actuation and realistic pumping cycles.",
+    "questions": [
+      {
+        "id": "ache-interest",
+        "question": "What specific contribution or technical challenge in ACHE (Artificial Cardiovascular and Hemodynamics Experiment) excites you most?",
+        "required": true,
+        "type": "textarea"
+      },
+      {
+        "id": "ache-skills",
+        "question": "What relevant technical tools (CAD, microcontrollers, simulation, programming) do you bring or want to learn?",
+        "required": false,
+        "type": "textarea"
+      }
+    ]
+  },
+  {
+    "id": "amps",
+    "name": "AMPS",
+    "fullName": "Adaptive Magnetic Power System",
+    "description": "Creating a hyper-efficient e-bike that can also be used as a personal power generator. Maximizing the efficiency of all components of the bike, from the transmission to the power electronics.",
+    "questions": [
+      {
+        "id": "amps-interest",
+        "question": "What specific contribution or technical challenge in AMPS (Adaptive Magnetic Power System) excites you most?",
+        "required": true,
+        "type": "textarea"
+      },
+      {
+        "id": "amps-skills",
+        "question": "What relevant technical tools (CAD, microcontrollers, simulation, programming) do you bring or want to learn?",
+        "required": false,
+        "type": "textarea"
+      }
+    ]
+  },
+  {
+    "id": "ankl",
+    "name": "ANKL",
+    "fullName": "6-DOF Prosthetic Ankle",
+    "description": "Development of a 3+ DoF active below-the-knee ankle prosthesis with the goal of maximizing comfort and mobility. Our final product will include a RoM within ±10% of the total RoM of a biological ankle, compatibility with prosthetic mounts commonly found on the market, and must be able to operate independently of any external power source or controller.",
+    "questions": [
+      {
+        "id": "biomech-fit",
+        "question": "What excites you about biomedical robotics, EMG sensors, or prosthetic actuation?",
+        "required": true,
+        "type": "textarea"
+      }
+    ]
+  },
+  {
+    "id": "beest",
+    "name": "BEEST",
+    "fullName": "Electromechanical Strandbeest",
+    "description": "Raspberry-Pi-powered Strandbeest robot using Jansen linkages with automated TURTLE-like exterior shell.",
+    "questions": [
+      {
+        "id": "beest-interest",
+        "question": "What specific contribution or technical challenge in BEEST (Electromechanical Strandbeest) excites you most?",
+        "required": true,
+        "type": "textarea"
+      },
+      {
+        "id": "beest-skills",
+        "question": "What relevant technical tools (CAD, microcontrollers, simulation, programming) do you bring or want to learn?",
+        "required": false,
+        "type": "textarea"
+      }
+    ]
+  },
+  {
+    "id": "blnc",
+    "name": "BLNC",
+    "fullName": "Self-Balancing Rovers for Extreme Terrain",
+    "description": "Development of inverted‑pendulum, self‑balancing robotic solutions capable of safely transporting variable mass payloads across unknown terrain.",
+    "questions": [
+      {
+        "id": "blnc-interest",
+        "question": "What specific contribution or technical challenge in BLNC (Self-Balancing Rovers for Extreme Terrain) excites you most?",
+        "required": true,
+        "type": "textarea"
+      },
+      {
+        "id": "blnc-skills",
+        "question": "What relevant technical tools (CAD, microcontrollers, simulation, programming) do you bring or want to learn?",
+        "required": false,
+        "type": "textarea"
+      }
+    ]
+  },
+  {
+    "id": "cmbt",
+    "name": "CMBT",
+    "fullName": "Combat Robotics",
+    "description": "Members work in small teams to build combat robots in the 3lb and 1lb divisions. Teams that have functioning robots can bring them to competitions and compete against other world-class robots! All members are welcome to travel to competitions and help in the pits regardless of whether their robot is ready or not.",
+    "questions": [
+      {
+        "id": "cmbt-weight",
+        "question": "Which weight class (3lb Beetleweight or 1lb Antweight) are you aiming to design and build?",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "id": "cmbt-weapon",
+        "question": "What type of weapon or drive mechanism (vertical spinner, drum, flipper, wedge) are you excited to engineer?",
+        "required": true,
+        "type": "textarea"
+      }
+    ]
+  },
+  {
+    "id": "cntr",
+    "name": "CNTR",
+    "fullName": "VR-Controlled Modular Humanoid",
+    "description": "A modular, VR-controlled humanoid rover designed for hazardous or inaccessible environments. Hot-swappable end effectors, Rover-style drive base, and real-time control.",
+    "questions": [
+      {
+        "id": "humanoid-tech",
+        "question": "What experience or interest do you have in whole-body control, VR teleoperation, or humanoid kinematics?",
+        "required": true,
+        "type": "textarea"
+      }
+    ]
+  },
+  {
+    "id": "dron",
+    "name": "DRON",
+    "fullName": "Disaster Response Observation Network",
+    "description": "UAV swarm platform to assist first responders with visual data and mapping with minimal human input. ROS2 is used with PX4 integration to achieve autonomous offboard control of multiple UAV’s. Data is captured in real-time using scripts and mapped using OpenCV.",
+    "questions": [
+      {
+        "id": "dron-stack",
+        "question": "Do you have prior experience with ROS 2, PX4 Autopilot, drone hardware, or OpenCV mapping?",
+        "required": true,
+        "type": "textarea"
+      },
+      {
+        "id": "dron-role",
+        "question": "Are you interested in UAV flight control firmware, computer vision mapping, or swarm coordination algorithms?",
+        "required": true,
+        "type": "text"
+      }
+    ]
+  },
+  {
+    "id": "eden",
+    "name": "EDEN",
+    "fullName": "AI-Enabled Humanoid Research",
+    "description": "Building an AI-enabled humanoid with ROS 2 and machine learning for adaptive end-to-end robotic systems.",
+    "questions": [
+      {
+        "id": "humanoid-tech",
+        "question": "What experience or interest do you have in whole-body control, VR teleoperation, or humanoid kinematics?",
+        "required": true,
+        "type": "textarea"
+      }
+    ]
+  },
+  {
+    "id": "fash",
+    "name": "FASH",
+    "fullName": "Fashionable Automated Stage Hardware",
+    "description": "FASH is the first and only fashion robotics team at Texas A&M, exploring the intersection of fashion, fine arts, and robotics. We challenge the boundaries of wearable designs by embedding automation directly into performance garments. The design consists of an automated wing linkage system for various ballet performances.",
+    "questions": [
+      {
+        "id": "fash-interest",
+        "question": "What specific contribution or technical challenge in FASH (Fashionable Automated Stage Hardware) excites you most?",
+        "required": true,
+        "type": "textarea"
+      },
+      {
+        "id": "fash-skills",
+        "question": "What relevant technical tools (CAD, microcontrollers, simulation, programming) do you bring or want to learn?",
+        "required": false,
+        "type": "textarea"
+      }
+    ]
+  },
+  {
+    "id": "germ",
+    "name": "GERM",
+    "fullName": "Self-Regulating Aeroponics Box",
+    "description": "GERM (Growth Enhancement & Regulation Module) is an autonomous indoor plant growth system designed to optimize plant health through integrated environmental control. The system combines automated lighting, aeroponic watering, temperature regulation, and a touchscreen human-machine interface to minimize manual intervention while maintaining ideal growing conditions. By integrating mechanical, electrical, and software subsystems, GERM provides a modular platform capable of supporting different plant species and growth stages while laying the foundation for future AI-based plant monitoring and adaptive control.",
+    "questions": [
+      {
+        "id": "germ-interest",
+        "question": "What specific contribution or technical challenge in GERM (Self-Regulating Aeroponics Box) excites you most?",
+        "required": true,
+        "type": "textarea"
+      },
+      {
+        "id": "germ-skills",
+        "question": "What relevant technical tools (CAD, microcontrollers, simulation, programming) do you bring or want to learn?",
+        "required": false,
+        "type": "textarea"
+      }
+    ]
+  },
+  {
+    "id": "larm",
+    "name": "LARM",
+    "fullName": "Lab Assisting Robotic Manipulator",
+    "description": "An autonomous 6-DOF arm for wet-lab tasks like injection, pouring, and stirring using IK and motion planning.",
+    "questions": [
+      {
+        "id": "larm-interest",
+        "question": "What specific contribution or technical challenge in LARM (Lab Assisting Robotic Manipulator) excites you most?",
+        "required": true,
+        "type": "textarea"
+      },
+      {
+        "id": "larm-skills",
+        "question": "What relevant technical tools (CAD, microcontrollers, simulation, programming) do you bring or want to learn?",
+        "required": false,
+        "type": "textarea"
+      }
+    ]
+  },
+  {
+    "id": "maze",
+    "name": "MAZE",
+    "fullName": "Autonomous Lidar Maze Robot",
+    "description": "MAZE is an autonomous wheeled robot that navigates and maps a randomly generated physical maze using 2D Light Detection and Ranging (LiDAR) technology over vision-based systems. Frontier detection and A* algorithms will be used to explore the maze environment in its entirety and compute the shortest path from the structure’s entrance to its exit. This project aims to get a better understanding of the visionless systems used in emerging automobiles and mobile robots for autonomous, planar exploration and navigation.",
+    "questions": [
+      {
+        "id": "maze-interest",
+        "question": "What specific contribution or technical challenge in MAZE (Autonomous Lidar Maze Robot) excites you most?",
+        "required": true,
+        "type": "textarea"
+      },
+      {
+        "id": "maze-skills",
+        "question": "What relevant technical tools (CAD, microcontrollers, simulation, programming) do you bring or want to learn?",
+        "required": false,
+        "type": "textarea"
+      }
+    ]
+  },
+  {
+    "id": "olsn",
+    "name": "OLSN",
+    "fullName": "Custom Pediatric Prosthetic Hand",
+    "description": "Affordable, custom prosthetic hand for a local child utilizing Electromyography and ratcheting technology for both electrical and mechanical actuation.",
+    "questions": [
+      {
+        "id": "biomech-fit",
+        "question": "What excites you about biomedical robotics, EMG sensors, or prosthetic actuation?",
+        "required": true,
+        "type": "textarea"
+      }
+    ]
+  },
+  {
+    "id": "orio",
+    "name": "ORIO",
+    "fullName": "3D-Printed Equatorial Mount",
+    "description": "ORIO is about capturing high-quality images of celestial objects in the night sky using long exposure images. This is achieved through creating an equatorial camera mount to track these objects during their apparent motion.",
+    "questions": [
+      {
+        "id": "orio-interest",
+        "question": "What specific contribution or technical challenge in ORIO (3D-Printed Equatorial Mount) excites you most?",
+        "required": true,
+        "type": "textarea"
+      },
+      {
+        "id": "orio-skills",
+        "question": "What relevant technical tools (CAD, microcontrollers, simulation, programming) do you bring or want to learn?",
+        "required": false,
+        "type": "textarea"
+      }
+    ]
+  },
+  {
+    "id": "pobs",
+    "name": "POBS",
+    "fullName": "Positive Operative Buoyancy Submersible",
+    "description": "POBS (Positive Operative Buoyancy Submersible) is a submersible project which aims to explore challenges with underwater robots such as waterproofing, working in a GPS-denied environment, hydrodynamic designs, and more. The project is an AUV with the goal of autonomously recording or taking photos of the sea floor while collecting aquatic data.",
+    "questions": [
+      {
+        "id": "pobs-marine",
+        "question": "What is your experience with waterproof enclosures, hydrodynamic modeling, or underwater buoyancy control?",
+        "required": true,
+        "type": "textarea"
+      }
+    ]
+  },
+  {
+    "id": "prnt",
+    "name": "PRNT",
+    "fullName": "4-Axis Non-Planar 3D Printer",
+    "description": "PRNT aims to design a 4-axis 3D printer capable of non-planar extrusion. Adding rotational motion to existing printing technology allows for supportless printing and anisotropic material property optimization.",
+    "questions": [
+      {
+        "id": "prnt-kinematics",
+        "question": "What experience do you have with 3D printer slicing algorithms, G-code, or multi-axis kinematics?",
+        "required": true,
+        "type": "textarea"
+      }
+    ]
+  },
+  {
+    "id": "shdr",
+    "name": "SHDR",
+    "fullName": "Stroke Rehabilitation Assistive Exoskeleton",
+    "description": "There is a distinct lack of rehabilitation devices for stroke patients who experience muscular atrophy outside of physical therapy. This project aims to create an EMG-actuated assistive exoskeleton that can help restore some autonomy and dignity to these patients by assisting them with their day-to-day tasks",
+    "questions": [
+      {
+        "id": "biomech-fit",
+        "question": "What excites you about biomedical robotics, EMG sensors, or prosthetic actuation?",
+        "required": true,
+        "type": "textarea"
+      }
+    ]
+  },
+  {
+    "id": "quad",
+    "name": "QUAD",
+    "fullName": "Quadruped Walking Robot",
+    "description": "A legged quadruped using brushless motors and cycloidal gearboxes to explore dynamic locomotion and balance.",
+    "questions": [
+      {
+        "id": "quad-interest",
+        "question": "What specific contribution or technical challenge in QUAD (Quadruped Walking Robot) excites you most?",
+        "required": true,
+        "type": "textarea"
+      },
+      {
+        "id": "quad-skills",
+        "question": "What relevant technical tools (CAD, microcontrollers, simulation, programming) do you bring or want to learn?",
+        "required": false,
+        "type": "textarea"
+      }
+    ]
+  },
+  {
+    "id": "snout",
+    "name": "SNOUT",
+    "fullName": "Olfactory Sensing Robot",
+    "description": "A robotic vehicle equipped with advanced olfactory sensors to detect and identify scents in varied applications.",
+    "questions": [
+      {
+        "id": "snout-interest",
+        "question": "What specific contribution or technical challenge in SNOUT (Olfactory Sensing Robot) excites you most?",
+        "required": true,
+        "type": "textarea"
+      },
+      {
+        "id": "snout-skills",
+        "question": "What relevant technical tools (CAD, microcontrollers, simulation, programming) do you bring or want to learn?",
+        "required": false,
+        "type": "textarea"
+      }
+    ]
+  },
+  {
+    "id": "swrm",
+    "name": "SWRM",
+    "fullName": "Swarm Robotics for Collective Behavior",
+    "description": "SWRM explores swarm robotics through automated performances. Each bot is outfitted with its own LED screen, allowing for each one to display a unique image or animation. These visuals are combined with the movement of the bots to create a unique effect.",
+    "questions": [
+      {
+        "id": "swrm-interest",
+        "question": "What specific contribution or technical challenge in SWRM (Swarm Robotics for Collective Behavior) excites you most?",
+        "required": true,
+        "type": "textarea"
+      },
+      {
+        "id": "swrm-skills",
+        "question": "What relevant technical tools (CAD, microcontrollers, simulation, programming) do you bring or want to learn?",
+        "required": false,
+        "type": "textarea"
+      }
+    ]
+  },
+  {
+    "id": "vest",
+    "name": "VEST",
+    "fullName": "Noninvasive Canine Health Monitoring Vest",
+    "description": "The VEST project is a noninvasive wearable vest for dogs that enables continuous monitoring of health and physiological condition across breeds and sizes. It tracks body temperature, respiratory rate, and heart rate, and uses a robotics-based auto-tightening mechanism for proper sensor contact. Data is sent in real time to a mobile app for owners and veterinarians, enabling early detection of health issues.",
+    "questions": [
+      {
+        "id": "vest-interest",
+        "question": "What specific contribution or technical challenge in VEST (Noninvasive Canine Health Monitoring Vest) excites you most?",
+        "required": true,
+        "type": "textarea"
+      },
+      {
+        "id": "vest-skills",
+        "question": "What relevant technical tools (CAD, microcontrollers, simulation, programming) do you bring or want to learn?",
+        "required": false,
+        "type": "textarea"
+      }
+    ]
+  },
+  {
+    "id": "virt",
+    "name": "VIRT",
+    "fullName": "Vision-Integrated Robotic Turret",
+    "description": "VIRT is a harmless sentry turret that will find, track, and follow a target with an Xilinx FPGA-driven CV system. Currently, the two main objectives are to target an object of known size and color with a single camera on the FPGA and develop an ML model to control the robot running on a single-board computer.",
+    "questions": [
+      {
+        "id": "virt-interest",
+        "question": "What specific contribution or technical challenge in VIRT (Vision-Integrated Robotic Turret) excites you most?",
+        "required": true,
+        "type": "textarea"
+      },
+      {
+        "id": "virt-skills",
+        "question": "What relevant technical tools (CAD, microcontrollers, simulation, programming) do you bring or want to learn?",
+        "required": false,
+        "type": "textarea"
+      }
+    ]
+  }
+]
